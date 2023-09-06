@@ -1,0 +1,47 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Given get https://www.amazon.in/",
+      "type": "TestStepPass",
+      "duration": 4939,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'Best Sellers')]",
+      "type": "TestStepPass",
+      "duration": 2006,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//div[@id='nav-xshop']/a[4]",
+      "type": "TestStepPass",
+      "duration": 1876,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'Mobiles')]",
+      "type": "TestStepPass",
+      "duration": 2435,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'New Releases')]",
+      "type": "TestStepPass",
+      "duration": 2277,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And click on xpath=//a[contains(text(),'Customer Service')]",
+      "type": "TestStepPass",
+      "duration": 1711,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

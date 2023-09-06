@@ -1,0 +1,358 @@
+{
+    "steps": [
+        {
+            "command": "Open",
+            "element": "",
+            "eArray": [],
+            "input": "https://www.amazon.in/",
+            "status": "Passed",
+            "elementKey": "",
+            "elementDesc": "",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": false,
+            "duration": 4939000000,
+            "executedOn": "2023-09-06T13:35:50.119Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "link.best.sellers",
+            "eArray": [
+                [
+                    "xpath=//a[contains(text(),'Best Sellers')]",
+                    "xpath:link"
+                ],
+                [
+                    "xpath=//div[@id='nav-xshop']/a[3]",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//a[contains(@href, '/gp/bestsellers/?ref_=nav_cs_bestsellers')]",
+                    "xpath:href"
+                ],
+                [
+                    "xpath=//div[5]/div[2]/div/div/a[3]",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sell'])[1]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Amazon miniTV'])[1]/following::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)=concat('Today', \"'\", 's Deals')])[1]/preceding::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mobiles'])[1]/preceding::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//a[text()='Best Sellers']",
+                    "xpath:innerText"
+                ],
+                [
+                    "link.best.sellers",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "link.best sellers",
+            "elementDesc": "Link for Best Sellers",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": false,
+            "duration": 2006000000,
+            "executedOn": "2023-09-06T13:35:52.126Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "link.todays.deals",
+            "eArray": [
+                [
+                    "xpath=//div[@id='nav-xshop']/a[4]",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//a[contains(@href, '/deals?ref_=nav_cs_gb')]",
+                    "xpath:href"
+                ],
+                [
+                    "xpath=//div[2]/div/a[4]",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Best Sellers'])[1]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sell'])[1]/following::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mobiles'])[1]/preceding::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='New Releases'])[1]/preceding::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//a[text()=concat('Today', \"'\", 's Deals')]",
+                    "xpath:innerText"
+                ],
+                [
+                    "link.todays.deals",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "link.todays deals",
+            "elementDesc": "Link for Today's Deals",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": false,
+            "duration": 1876000000,
+            "executedOn": "2023-09-06T13:35:54.003Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "link.mobiles",
+            "eArray": [
+                [
+                    "xpath=//a[contains(text(),'Mobiles')]",
+                    "xpath:link"
+                ],
+                [
+                    "xpath=//div[@id='nav-xshop']/a[5]",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//a[contains(@href, '/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles')]",
+                    "xpath:href"
+                ],
+                [
+                    "xpath=//div[2]/div/a[5]",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)=concat('Today', \"'\", 's Deals')])[1]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Best Sellers'])[1]/following::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='New Releases'])[1]/preceding::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Customer Service'])[1]/preceding::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//a[text()='Mobiles']",
+                    "xpath:innerText"
+                ],
+                [
+                    "link.mobiles",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "link.mobiles",
+            "elementDesc": "Link for Mobiles",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": false,
+            "duration": 2435000000,
+            "executedOn": "2023-09-06T13:35:56.438Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "link.new.releases",
+            "eArray": [
+                [
+                    "xpath=//a[contains(text(),'New Releases')]",
+                    "xpath:link"
+                ],
+                [
+                    "xpath=//div[@id='nav-xshop']/a[6]",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//a[contains(@href, '/gp/new-releases/?ref_=nav_cs_newreleases')]",
+                    "xpath:href"
+                ],
+                [
+                    "xpath=//div[2]/div/a[6]",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mobiles'])[1]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)=concat('Today', \"'\", 's Deals')])[1]/following::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Customer Service'])[1]/preceding::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Prime'])[1]/preceding::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//a[text()='New Releases']",
+                    "xpath:innerText"
+                ],
+                [
+                    "link.new.releases",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "link.new releases",
+            "elementDesc": "Link for New Releases",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": false,
+            "duration": 2277000000,
+            "executedOn": "2023-09-06T13:35:58.715Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "link.customer.service",
+            "eArray": [
+                [
+                    "xpath=//a[contains(text(),'Customer Service')]",
+                    "xpath:link"
+                ],
+                [
+                    "xpath=//div[@id='nav-xshop']/a[7]",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//a[contains(@href, '/gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help')]",
+                    "xpath:href"
+                ],
+                [
+                    "xpath=//div[2]/div/a[7]",
+                    "xpath:position"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='New Releases'])[1]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Mobiles'])[1]/following::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Prime'])[1]/preceding::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Electronics'])[2]/preceding::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//a[text()='Customer Service']",
+                    "xpath:innerText"
+                ],
+                [
+                    "link.customer.service",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "link.customer service",
+            "elementDesc": "Link for Customer Service",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": false,
+            "duration": 1711000000,
+            "executedOn": "2023-09-06T13:36:00.426Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        }
+    ],
+    "type": "web",
+    "capabilities": {
+        "remoteUrl": "https://www.amazon.in/",
+        "type": "web",
+        "selectBrowser": "chrome",
+        "selectDevice": "",
+        "isRemote": false,
+        "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+        "isDebugMode": false,
+        "details": {
+            "deviceMetrics": {
+                "name": "",
+                "width": "",
+                "height": "",
+                "pixelRatio": "",
+                "userAgent": ""
+            }
+        }
+    },
+    "testDataExample": [],
+    "isTCValid": true,
+    "externalTestData": false,
+    "recordSessionType": "multiple",
+    "tags": [],
+    "description": "",
+    "shared": false,
+    "executionStatus": "Passed"
+}

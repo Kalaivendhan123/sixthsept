@@ -1,0 +1,144 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Case 1",
+    "line": 9,
+    "description": "",
+    "id": "Case 1",
+    "tags": [],
+    "uri": "sixthsept/Case 1",
+    "testSuiteName": "sixthsept",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://www.amazon.in/",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": false,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "Case 1",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 9,
+        "name": "Case 1",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Passed",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://www.amazon.in/",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": false,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://www.amazon.in/",
+            "match": {
+              "location": "Case 1/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4939000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "click on xpath=//a[contains(text(),'Best Sellers')]",
+            "match": {
+              "location": "Case 1/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "click on xpath=//div[@id='nav-xshop']/a[4]",
+            "match": {
+              "location": "Case 1/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1876000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "click on xpath=//a[contains(text(),'Mobiles')]",
+            "match": {
+              "location": "Case 1/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "click on xpath=//a[contains(text(),'New Releases')]",
+            "match": {
+              "location": "Case 1/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "click on xpath=//a[contains(text(),'Customer Service')]",
+            "match": {
+              "location": "Case 1/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1711000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
